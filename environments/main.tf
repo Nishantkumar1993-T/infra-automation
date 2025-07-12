@@ -10,6 +10,7 @@ module "resource_group" {
   resource_group_location = "Australia East"
 }
 
+# kya baat hai bhai kitne RG add krega
 module "resource_group" {
   source                  = "../Modules/azurem_resource_group"
   resource_group_name     = "test-rg3"
