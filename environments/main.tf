@@ -10,6 +10,12 @@ module "resource_group" {
   resource_group_location = "Australia East"
 }
 
+module "resource_group" {
+  source                  = "../Modules/azurem_resource_group"
+  resource_group_name     = "test-rg3"
+  resource_group_location = "Australia East"
+}
+
 module "virtual_network" {
   depends_on               = [module.resource_group]
   source                   = "../Modules/azurem_virtual_network"
