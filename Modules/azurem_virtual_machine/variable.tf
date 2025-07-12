@@ -1,0 +1,12 @@
+variable "nic_name" {}
+variable "resource_group_location" {}
+variable "resource_group_name" {}
+variable "vm_name" {}
+variable "username" {}
+variable "password" {}
+variable "image_publisher" {}
+variable "image_offer" {}
+variable "sku" {}
+variable "subnet_name" {}
+variable "virtual_network_name" {}  
+variable "pip_name" {}
