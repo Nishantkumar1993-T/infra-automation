@@ -11,6 +11,7 @@ module "resource_group" {
 }
 
 # kya baat hai bhai kitne RG add krega
+# main branch leni thi main kuch b dalra tha
 module "resource_group" {
   source                  = "../Modules/azurem_resource_group"
   resource_group_name     = "test-rg3"
